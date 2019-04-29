@@ -1,0 +1,12 @@
+{
+    "name": "com.alexismorin.falloffcustomizer",
+    "displayName": "Falloff Customizer",
+    "version": "1.0.0",
+    "unity": "2019.1",
+    "description": "Interactively adjust light falloff values for deferred rendering.",
+    "keywords": [
+        "lighting",
+        "unity"
+    ],
+    "category": "Open-Source"
+}
