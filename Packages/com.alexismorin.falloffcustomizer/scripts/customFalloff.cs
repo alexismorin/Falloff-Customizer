@@ -14,12 +14,16 @@ public class customFalloff : MonoBehaviour {
     public FalloffType bakedLightsFalloff = FalloffType.InverseSquared;
     [SerializeField]
     public int falloffLookupTextureSize = 8;
+    [SerializeField]
+    public TextureFormat textureFormat = TextureFormat.ARGB32;
+    [SerializeField]
+    public FilterMode textureFilterMode = FilterMode.Trilinear;
 
     public void adjustFalloffCurve () {
 
         int pixelCount = falloffLookupTextureSize;
-        Texture2D m_AttenTex = new Texture2D (pixelCount, 1, TextureFormat.ARGB32, false, true);
-        m_AttenTex.filterMode = FilterMode.Trilinear;
+        Texture2D m_AttenTex = new Texture2D (pixelCount, 1, textureFormat, false, true);
+        m_AttenTex.filterMode = textureFilterMode;
         m_AttenTex.wrapMode = TextureWrapMode.Clamp;
         Color[] pixels = new Color[pixelCount * pixelCount];
         Vector2 center = new Vector2 (0, pixelCount / 2);

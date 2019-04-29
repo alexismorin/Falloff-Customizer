@@ -14,6 +14,8 @@ Navigate to the *Falloff Customizer* folder in the packages section of the proje
 - Adjust the curve to edit the falloff for your lights - this is pretty straightforward, but keep in mind that best results are achieved by having the curve time remain in the 0-1 range.
 - You can adjust the falloff for the progressive lightmapper. Just switch between settings, disable then re-enable the script - results will change on your next bake.
 - You can adjust the resolution of the falloff lookup texture that the package generates (the default editor resolution is 16); adjust to your liking - I find 8 better but 16 has a little more edge to it.
+- You can adjust the texture format of the lookup texture for better quality - ARGB32 is the default but R16 can smooth things out a little.
+- You can adjust the filter mode of the lookup texture - bilinear is a good tradeoff between performance and quality.
 
 ![gif](images/gif.gif)
 

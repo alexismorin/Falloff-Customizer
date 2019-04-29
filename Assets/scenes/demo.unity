@@ -1941,5 +1941,85 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4380065628895277306, guid: 944cc75b55c9fcf48a05ee5c04c0c820,
+        type: 3}
+      propertyPath: falloffLookupTextureSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380065628895277306, guid: 944cc75b55c9fcf48a05ee5c04c0c820,
+        type: 3}
+      propertyPath: textureFormat
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380065628895277306, guid: 944cc75b55c9fcf48a05ee5c04c0c820,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380065628895277306, guid: 944cc75b55c9fcf48a05ee5c04c0c820,
+        type: 3}
+      propertyPath: lightFalloffCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380065628895277306, guid: 944cc75b55c9fcf48a05ee5c04c0c820,
+        type: 3}
+      propertyPath: lightFalloffCurve.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380065628895277306, guid: 944cc75b55c9fcf48a05ee5c04c0c820,
+        type: 3}
+      propertyPath: lightFalloffCurve.m_Curve.Array.data[0].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380065628895277306, guid: 944cc75b55c9fcf48a05ee5c04c0c820,
+        type: 3}
+      propertyPath: lightFalloffCurve.m_Curve.Array.data[0].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380065628895277306, guid: 944cc75b55c9fcf48a05ee5c04c0c820,
+        type: 3}
+      propertyPath: lightFalloffCurve.m_Curve.Array.data[1].inSlope
+      value: -3.7615538
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380065628895277306, guid: 944cc75b55c9fcf48a05ee5c04c0c820,
+        type: 3}
+      propertyPath: lightFalloffCurve.m_Curve.Array.data[1].outSlope
+      value: -3.7615538
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380065628895277306, guid: 944cc75b55c9fcf48a05ee5c04c0c820,
+        type: 3}
+      propertyPath: lightFalloffCurve.m_Curve.Array.data[1].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380065628895277306, guid: 944cc75b55c9fcf48a05ee5c04c0c820,
+        type: 3}
+      propertyPath: lightFalloffCurve.m_Curve.Array.data[1].inWeight
+      value: 0.038136065
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380065628895277306, guid: 944cc75b55c9fcf48a05ee5c04c0c820,
+        type: 3}
+      propertyPath: lightFalloffCurve.m_Curve.Array.data[0].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380065628895277306, guid: 944cc75b55c9fcf48a05ee5c04c0c820,
+        type: 3}
+      propertyPath: lightFalloffCurve.m_Curve.Array.data[0].inWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380065628895277306, guid: 944cc75b55c9fcf48a05ee5c04c0c820,
+        type: 3}
+      propertyPath: lightFalloffCurve.m_Curve.Array.data[0].outWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380065628895277306, guid: 944cc75b55c9fcf48a05ee5c04c0c820,
+        type: 3}
+      propertyPath: lightFalloffCurve.m_Curve.Array.data[1].outWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4380065628895277306, guid: 944cc75b55c9fcf48a05ee5c04c0c820,
+        type: 3}
+      propertyPath: textureFilterMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 944cc75b55c9fcf48a05ee5c04c0c820, type: 3}
