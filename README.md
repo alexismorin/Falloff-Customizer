@@ -43,7 +43,10 @@ This is a plugin that makes use of Unity's new *Package Manager* feature. Just d
 Standard pipeline Unity light still use range instead of attenuation, and will thus never be 100% physically accurate. This package can get you pretty close, but if all else fails I guess you can switch to Unreal Engine 😏
 
 [TwoTailsGames for their Unity 2019.1 internal shader repo.](https://github.com/TwoTailsGames/Unity-Built-in-Shaders)
+
 [The SCP: Containment Breach - Unity development team for being so friendly and laying out the initial issue](https://www.scp-unity.com/)
+
 [Arthur Daurio for writing this excellent article on the backend behind the problem.](http://arthurdaurio.com/2018/05/13/inverse-square-falloff-in-unity/)
 
-Per usua, whipped up in around an hour on my couch - bugs beware.
+
+Per usual, whipped up in around an hour on my couch - bugs beware.
