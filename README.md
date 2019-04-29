@@ -15,7 +15,7 @@ Navigate to the *Falloff Customizer* folder in the packages section of the proje
 - You can adjust the falloff for the progressive lightmapper. Just switch between settings, disable then re-enable the script - results will change on your next bake.
 - You can adjust the resolution of the falloff lookup texture that the package generates (the default editor resolution is 16); adjust to your liking - I find 8 better but 16 has a little more edge to it.
 
-![gif](images/gif.png)
+![gif](images/gif.gif)
 
 ### Compatibility
 
