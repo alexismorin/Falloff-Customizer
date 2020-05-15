@@ -1,6 +1,8 @@
 # Falloff Customizer
 ## Interactively adjust light falloff values for Unity deferred rendering
 
+[This is an old tool, consider using my Built-In ISF plugin instead](https://github.com/alexismorin/Built-In-ISF)
+
 ![header](images/reference.png)
 
 By default, Unity lights use a linear falloff model. In nearly every single instance, this won't compare to lighting in other game engines (or the HDRP). Especially if you're using linear color space and the deferred render path, you'll probably want this issue fixed as soon as possible! This package not only converts your lighting model to the more standard Inverse Square falloff model, but also allows you from then on to customize the falloff for lighting in your project.
